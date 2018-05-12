@@ -7,7 +7,7 @@ class Song
   end
 
   def artist_name
-    if self.artist.name.size == 0
+    if self.artist.name.size < 1
       return nil
     else
       self.artist.name
