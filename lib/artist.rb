@@ -6,3 +6,6 @@ class Artist
     @name = name
     @song = []
     @song << song
+  end
+
+end
